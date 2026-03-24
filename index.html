@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - Juegos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">🎮 Emulator</div>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="consolas.html">Consolas</a>
+  </nav>
+
+  <input type="text" placeholder="Buscar..." class="search">
+</header>
+
+<!-- CONTENIDO -->
+<div class="category">
+  <h2>Game Boy Advance</h2>
+  <div class="row">
+
+    <div class="game" onclick="playGame('Metroid_Fusion.gba','gba')">
+      <img src="img/metroid_fusion.jpg">
+      <p>Metroid Fusion</p>
+    </div>
+
+    <div class="game" onclick="playGame('The_Minish_Cap.gba','gba')">
+      <img src="img/the_minish_cap.png">
+      <p>Zelda Minish Cap</p>
+    </div>
+
+  </div>
+</div>
+
+<div class="category">
+  <h2>Nintendo (NES)</h2>
+  <div class="row">
+
+    <div class="game" onclick="playGame('Super_Mario_Bros_3.nes','nes')">
+      <img src="img/mario3.jpg">
+      <p>Super Mario Bros</p>
+    </div>
+
+    <div class="game" onclick="playGame('Baseball.nes','nes')">
+      <img src="img/baseball.jpg">
+      <p>Baseball</p>
+    </div>
+
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
